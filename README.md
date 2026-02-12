@@ -3,3 +3,5 @@
 # Foxtension
 
 > TermiKall Base Library.
+
+**See Package in** [**`NuGet Gallery`**](https://www.nuget.org/packages/Foxtension/)
