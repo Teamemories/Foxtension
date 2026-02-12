@@ -1,4 +1,3 @@
-```cmd
-@ECHO OFF
-ECHO Coming Soon
-```
+# Foxtension
+
+> TermiKall Base Library.
