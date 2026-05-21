@@ -6,7 +6,7 @@ Foxtension is a comprehensive .NET utility library designed to streamline common
 
 ## Version releases
 
-- [x] [`v26.5.21`](https://github.com/Teamemories/Foxtension/releases/tag/v26.5.21)
+- [x] [`v26.5.21`](https://github.com/Teamemories/Foxtension/releases/tag/v26.5.21) [Latest]
 - [ ] [`v26.5.21`](https://github.com/Teamemories/Foxtension/releases/tag/v1.0.1) [EOS]
 
 ## How to Use
