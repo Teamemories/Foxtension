@@ -4,15 +4,6 @@
 
 Foxtension is a comprehensive .NET utility library designed to streamline common development tasks, providing robust tools for database interaction, system information, file management, security, and logging. Built with efficiency and ease of use in mind, Foxtension aims to simplify your workflow and enhance application development.
 
-## Version releases
-
-- [x] [`v26.5.21`](https://github.com/Teamemories/Foxtension/releases/tag/v26.5.21) [Latest]
-- [ ] [`v26.5.21`](https://github.com/Teamemories/Foxtension/releases/tag/v1.0.1) [EOS]
-
-## How to Use
-
-You can find out how to use it by reading Foxtension Wiki. > [read it](https://github.com/Teamemories/Foxtension/wiki)
-
 ## Features
 
 Foxtension offers a powerful suite of tools, including:
@@ -31,16 +22,5 @@ Foxtension offers a powerful suite of tools, including:
     *   A versatile set of functions for creating, modifying, deleting, opening, and closing files and directories.
 *   **Message Logging:**
     *   An easy-to-use logging mechanism with predefined message templates for structured and consistent record-keeping.
-
-## Dependencies
-
-Foxtension relies on the following .NET packages:
-
-*   `System.Management`
-*   `Microsoft.Data.SqlClient`
-*   `Microsoft.Data.Sqlite`
-*   `Dapper`
-
-Ensure these dependencies are installed in your project before using Foxtension.
 
 ## [`License`](https://github.com/Teamemories/Foxtension/blob/main/LICENSE)
