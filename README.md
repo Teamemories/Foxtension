@@ -44,3 +44,5 @@ Install-Package Foxtension
 
 dotnet add package Foxtension
 ```
+
+## [`License`](https://github.com/Teamemories/Foxtension/blob/main/LICENSE)
