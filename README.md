@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/b80497f8-ed61-4b39-b1ae-1a5ea282ab17" style="width: 20%; height: 20vh; border-radius: 25px;"></img>
+<img src="https://github.com/user-attachments/assets/b80497f8-ed61-4b39-b1ae-1a5ea282ab17" style="width: 500px; height: 500px; border-radius: 25px;"></img>
 
 # Foxtension
 
