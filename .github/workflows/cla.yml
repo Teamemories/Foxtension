@@ -1,12 +1,12 @@
 name: CLA Assistant Lite
 
+permissions:
+  contents: read
+  packages: read
+
 on:
   pull_request:
     types: [opened, synchronize]
-    
-  permissions:
-  contents: read
-  packages: read
 
 jobs:
   cla:
