@@ -23,11 +23,3 @@ Foxtension offers a powerful suite of tools, including:
     *   A versatile set of functions for creating, modifying, deleting, opening, and closing files and directories.
 *   **Message Logging:**
     *   An easy-to-use logging mechanism with predefined message templates for structured and consistent record-keeping.
-
-## License
-
-> [`Apache 2.0`](https://github.com/Teamemories/Foxtension/blob/main/LICENSE)
-
-## Contributer License Agreement (CLA)
-
-> [`Contributing Guidelines`](https://github.com/Teamemories/Foxtension/blob/main/CONTRIBUTING.md)
