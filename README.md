@@ -23,7 +23,7 @@ Foxtension offers a powerful suite of tools, including:
 *   **Message Logging:**
     *   An easy-to-use logging mechanism with predefined message templates for structured and consistent record-keeping.
 
-## [License](https://github.com/Teamemories/Foxtension/blob/main/LICENSE)
+## License
 
 ```txt
 MIT License
