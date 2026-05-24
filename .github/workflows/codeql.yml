@@ -1,4 +1,4 @@
-name: "CodeQL"
+name: CodeQL
 
 on:
   push:
@@ -10,9 +10,7 @@ on:
 
 jobs:
   analyze:
-    name: Analyze
     runs-on: ubuntu-latest
-
     permissions:
       actions: read
       contents: read
@@ -20,31 +18,18 @@ jobs:
 
     strategy:
       fail-fast: false
-      matrix:
-        language: [ 'csharp', 'python' ]
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup .NET
-        if: matrix.language == 'csharp'
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: '10.0.x'
-
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3
         with:
-          languages: ${{ matrix.language }}
+          languages: ['*']
 
-      - name: Restore dependencies
-        if: matrix.language == 'csharp'
-        run: dotnet restore
-
-      - name: Build
-        if: matrix.language == 'csharp'
-        run: dotnet build --configuration Release --no-restore
+      - name: Autobuild
+        uses: github/codeql-action/autobuild@v3
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
