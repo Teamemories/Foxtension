@@ -18,6 +18,7 @@ Foxtension offers a powerful suite of tools, including:
 *   **Encryption Services:**
     *   **AES Encryption:** Securely encrypt and decrypt data using the Advanced Encryption Standard (AES) with controlled input/file size.
     *   **RSA Encryption:** Implement public-key cryptography using RSA, suitable for secure key exchange or data signing, also with controlled input/file size.
+    *   **SHA Hashing** In 256, 384 and 512 bases.
 *   **File & Folder Management:**
     *   A versatile set of functions for creating, modifying, deleting, opening, and closing files and directories.
 *   **Message Logging:**
