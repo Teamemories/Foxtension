@@ -26,8 +26,8 @@ Foxtension offers a powerful suite of tools, including:
 
 ## License
 
-> [`Apache 2.0`](https://github.com/teamemories/foxtension/LICENSE/)
+> [`Apache 2.0`](https://github.com/Teamemories/Foxtension/blob/main/LICENSE)
 
 ## Contributer License Agreement (CLA)
 
-> [`Contributing Guidelines`](https://github.com/teamemories/foxtension/CONTRIBUTING.md/)
+> [`Contributing Guidelines`](https://github.com/Teamemories/Foxtension/blob/main/CONTRIBUTING.md)
