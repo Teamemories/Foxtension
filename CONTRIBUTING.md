@@ -1,11 +1,11 @@
-# Contributing to TermiKall
+# Contributing to Foxtension
 
-Thank you for your interest in contributing to TermiKall!  
+Thank you for your interest in contributing to Foxtension!  
 Before submitting any code, documentation, or changes, please read and agree to the terms below.
 
 ---
 
-## Contributor License Agreement (CLA)
+Contributor License Agreement (CLA)
 
 Version 1.0 — Owner‑Controlled Contributions  
 
