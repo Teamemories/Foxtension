@@ -20,8 +20,8 @@ Do **NOT** open a public GitHub issue, as this may expose users to risk.
 ### How to report
 Please contact us through one of the following:
 
-- Email: **Teamemories@outlook.com**
-- GitHub Security Advisory: https://github.com/Teamemories/Foxtension/security/advisories/new
+- [**Email: Teamemories@outlook.com**](mailto:Teamemories@outlook.com)
+- [**GitHub Issue**](https://github.com/Teamemories/Foxtension/issues)
 
 > For report bugs, issue must be includes of [**#bug**]() tag.
 > 
