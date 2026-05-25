@@ -1,106 +1,107 @@
-# Security Policy
+# Contributor Code of Conduct
 
-## Supported Versions
-The following table outlines which versions of this project currently receive security updates:
+**Version 1.0 — Based on Contributor Covenant v2.1**
 
-| Version | Supported |
-|--------|-----------|
-| Latest Release (Stable Only) | ✔️ Fully supported |
-| Stable Releases (Before Latest Release) | ⚠️ Supported until we separately announce the unsupport of one or more versions. |
-| Depreciated Versions | ❌ Not guaranteed |
-
-Only the latest stable release is actively maintained for security fixes.
+As contributors and maintainers of this project, we are committed to creating a respectful, inclusive, and harassment‑free environment for everyone. This Code of Conduct outlines our expectations for all participants and the consequences for unacceptable behavior.
 
 ---
 
-## Reporting a Vulnerability
-If you discover a security vulnerability, **please report it privately**.  
-Do **NOT** open a public GitHub issue, as this may expose users to risk.
+## Our Standards
 
-### How to report
-Please contact us through one of the following:
+### We strive to foster an environment where:
+- Everyone is treated with **respect**, **kindness**, and **professionalism**
+- Diverse opinions are welcomed and discussed constructively
+- Contributions are reviewed fairly and without bias
+- Mistakes are seen as opportunities for improvement
+- Collaboration is encouraged and valued
 
-- [`Email`](mailto:Teamemories@outlook.com) (**Just for Work**)
-- [`Foxtension Issues`](https://github.com/Teamemories/Foxtension/issues)
-
-> For report bugs, issue must be includes of [**#bug**]() tag.
-> 
-> For send suggestions, issue must be includes of [**#sug**]() tag.
-
-When reporting, include as much detail as possible:
-
-- Steps to reproduce  
-- Affected versions  
-- Potential impact  
-- Any proof‑of‑concept code (if applicable)
-
-We will acknowledge your report within **48 hours**.
+### Examples of positive behavior:
+- Using welcoming and inclusive language  
+- Being considerate of different viewpoints  
+- Offering constructive feedback  
+- Taking responsibility for mistakes  
+- Showing empathy toward others  
 
 ---
 
-## Response Timeline
-We aim to follow this timeline:
+## Unacceptable Behavior
 
-- **48 hours** — Initial acknowledgment  
-- **7 days** — Full assessment and confirmation  
-- **30 days** — Patch development and release (if applicable)  
-- **Additional time** — Coordinated disclosure window if needed  
+The following behaviors are strictly prohibited:
 
-If the vulnerability is severe, we may accelerate this timeline.
-
----
-
-## Responsible Disclosure
-We ask that you:
-
-- Report vulnerabilities privately  
-- Do not publicly disclose details until a fix is released  
-- Give users reasonable time to update before publishing technical details  
-
-We commit to:
-
-- Treating your report seriously  
-- Working with you to validate and resolve the issue  
-- Crediting you (if desired) in release notes or advisories  
+- Harassment, discrimination, or derogatory comments  
+- Personal attacks or insults  
+- Publishing private information without permission  
+- Trolling, inflammatory comments, or deliberate disruption  
+- Sexualized language or imagery  
+- Threats of violence or intimidation  
+- Any behavior that violates applicable laws  
 
 ---
 
-## What Is Considered a Vulnerability
-Examples of valid security issues:
+## Enforcement Responsibilities
 
-- Remote code execution  
-- Privilege escalation  
-- Authentication or authorization bypass  
-- Sensitive data exposure  
-- Injection attacks (XSS, SQLi, command injection, etc.)  
-- Logic flaws that compromise security  
+Project maintainers are responsible for:
 
----
+- Clarifying and enforcing this Code of Conduct  
+- Taking appropriate and fair corrective action  
+- Removing or rejecting contributions that violate these standards  
+- Temporarily or permanently banning offenders when necessary  
 
-## What Is NOT Considered a Vulnerability
-The following are **not** treated as security issues:
-
-- UI/UX bugs  
-- Missing features
-- Performance issues
-- Outdated dependencies without proven exploitability  
-- Errors caused by unsupported environments  
-- Local attacks requiring physical access  
+Maintainers must act **fairly, consistently, and without discrimination**.
 
 ---
 
-## Security Best Practices for Contributors
-If you contribute to this project:
+## Scope
 
-- Avoid introducing unsafe patterns  
-- Validate and sanitize all inputs  
-- Follow secure coding guidelines  
-- Do not commit secrets, tokens, or credentials  
-- Use HTTPS for all external communications  
+This Code of Conduct applies to:
+
+- All project spaces (GitHub issues, PRs, discussions, etc.)  
+- Public interactions related to the project  
+- Private communications where behavior may impact the community  
 
 ---
 
-## Contact
-For any security‑related questions, email:
+## Reporting Violations
 
-**Teamemories@outlook.com**
+If you witness or experience a violation of this Code of Conduct, please report it privately.
+
+### Contact: **Teamemories@outlook.com**
+
+Reports should include:
+- Description of the incident  
+- Links, screenshots, or evidence (if available)  
+- Names of individuals involved  
+- Date and context  
+
+All reports will be handled **confidentially**.
+
+---
+
+## Enforcement Process
+
+1. **Acknowledgment** — We will respond within **48 hours**  
+2. **Review** — The maintainers will investigate the report  
+3. **Action** — Appropriate measures will be taken, which may include:  
+   - Warning  
+   - Temporary ban  
+   - Permanent ban  
+   - Rejection of contributions  
+4. **Appeal** — Decisions may be appealed by contacting the maintainers  
+
+---
+
+## Consequences for Violations
+
+Depending on severity and frequency, consequences may include:
+
+- A private or public warning  
+- Removal of contributions  
+- Temporary or permanent exclusion from the project  
+- Escalation to platform administrators (e.g., GitHub)
+
+---
+
+## Attribution
+
+This Code of Conduct is adapted from the **Contributor Covenant v2.1**  
+https://www.contributor-covenant.org/version/2/1/code_of_conduct/
