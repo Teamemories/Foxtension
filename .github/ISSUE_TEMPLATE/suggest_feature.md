@@ -18,5 +18,3 @@ Any alternative solutions or workarounds?
 
 ## Additional Context
 Add any other context or examples here.
-
-### Tag [`#bug`]()
