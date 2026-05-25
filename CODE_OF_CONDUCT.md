@@ -65,7 +65,7 @@ This Code of Conduct applies to:
 
 If you witness or experience a violation of this Code of Conduct, please report it privately.
 
-> ### [Email](mailto:Teamemories@outlook.com)
+> [**Email: Teamemories@outlook.com**](mailto:Teamemories@outlook.com)
 
 Reports should include:
 - Description of the incident  
