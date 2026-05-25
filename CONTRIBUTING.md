@@ -197,45 +197,6 @@ The Owner may terminate this Agreement with respect to a specific Contributor at
 
 Termination does not revoke rights previously granted for Contributions already accepted.
 
-
-
-10\. Governing Law
-
-This Agreement shall be governed by and interpreted under the laws of:
-
-
-
-Jurisdiction: \[Insert Jurisdiction]
-
-
-
-11\. Entire Agreement
-
-This Agreement constitutes the entire understanding between the Contributor and the Owner regarding Contributions to the Project and supersedes all prior agreements or communications.
-
-
-
-12\. Signatures
-
-Contributor
-
-Name: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-Signature: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-Date: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-
-
-Owner
-
-Name: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-Signature: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-Date: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-
 ## How to Contribute
 
 1. Fork the repository and create a feature branch for your changes.
