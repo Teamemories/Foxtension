@@ -5,8 +5,7 @@ Before submitting any code, documentation, or changes, please read and agree to 
 
 ---
 
-```md
-Contributor License Agreement (CLA)
+## Contributor License Agreement (CLA)
 
 Version 1.0 — Owner‑Controlled Contributions  
 
@@ -235,7 +234,7 @@ Name: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 Signature: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 Date: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-```
+
 
 ## How to Contribute
 
