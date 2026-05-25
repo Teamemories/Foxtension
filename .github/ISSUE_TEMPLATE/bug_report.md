@@ -1,7 +1,7 @@
 ---
 name: Bug Report
 about: Report a reproducible bug to help us improve the project
-labels: (#bug)
+labels: bug
 ---
 
 # Bug Report
