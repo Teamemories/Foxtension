@@ -9,7 +9,7 @@ Before submitting any code, documentation, or changes, please read and agree to 
 
 Version 1.0 — Owner‑Controlled Contributions  
 
-Effective Date: \[2026-2027]  
+Effective Date: \[2026-May]  
 
 Project Name: \[Foxtension]  
 
