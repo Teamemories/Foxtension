@@ -4,7 +4,7 @@ about: Report a reproducible bug to help us improve the project
 labels: bug
 ---
 
-# Bug Report
+# Tag [`#Bug`]()
 
 ## Description
 A clear and concise description of the issue.
