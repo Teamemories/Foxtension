@@ -4,9 +4,7 @@ about: Suggest a new idea or enhancement
 labels: enhancement
 ---
 
-# Feature Request
-
-## Summary
+## [`#Sug`]() Summary
 Describe the feature you would like to see.
 
 ## Problem
