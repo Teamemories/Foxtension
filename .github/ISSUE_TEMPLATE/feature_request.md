@@ -1,7 +1,7 @@
 ---
 name: Feature Request
 about: Suggest a new idea or enhancement
-labels: enhancement (#sug)
+labels: enhancement
 ---
 
 # Feature Request
