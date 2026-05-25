@@ -7,7 +7,7 @@ The following table outlines which versions of this project currently receive se
 |--------|-----------|
 | Latest Release (Stable Only) | ✔️ Fully supported |
 | Stable Releases (Before Latest Release) | ⚠️ Supported until we separately announce the unsupport of one or more versions. |
-| Older Versions | ❌ Not guaranteed |
+| Depreciated Versions | ❌ Not guaranteed |
 
 Only the latest stable release is actively maintained for security fixes.
 
