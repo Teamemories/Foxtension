@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Foxtension</id>
+    <version>26.5.22</version>
+    <authors>cmd_er</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>Stable Edition</description>
+    <copyright>@2026 Teamemories</copyright>
+    <tags>utils</tags>
+    <repository type="git" url="https://github.com/Teamemories/Foxtension/" commit="e04c6a2b0f7aca0b7e3c027b979ea10f7c8064d1" />
+    <dependencies>
+      <group targetFramework="net10.0">
+        <dependency id="Dapper" version="2.1.79" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Data.SqlClient" version="7.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Data.Sqlite" version="10.0.8" exclude="Build,Analyzers" />
+        <dependency id="System.Management" version="10.0.8" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Windows\Downloads\Git\FoxtensionCore\bin\Debug\net10.0\Foxtension.dll" target="lib\net10.0\Foxtension.dll" />
+  </files>
+</package>

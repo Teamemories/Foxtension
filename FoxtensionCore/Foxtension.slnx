@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../../../Desktop/Test/Test.csproj" />
+  <Project Path="Foxtension.csproj" />
+</Solution>

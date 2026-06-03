@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Foxtension</id>
+    <version>26.5.25</version>
+    <authors>cmd_er [https://github.com/xqb-dpx]</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
+    <icon>logo.png</icon>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/Teamemories/Foxtension/</projectUrl>
+    <description>Foxtension is a comprehensive .NET utility library, Foxtension aims to simplify your workflow and enhance application development.</description>
+    <releaseNotes>You can find out how to use it by reading Foxtension Wiki (https://github.com/Teamemories/Foxtension/wiki).</releaseNotes>
+    <copyright>@2026 Teamemories</copyright>
+    <tags>Utils Utility Utilities</tags>
+    <repository type="git" url="https://github.com/Teamemories/Foxtension/" commit="3e9276375423f4bdcb5f602c56200f90ba1de9b1" />
+    <dependencies>
+      <group targetFramework="net10.0">
+        <dependency id="Dapper" version="2.1.79" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Data.SqlClient" version="7.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Data.Sqlite" version="10.0.8" exclude="Build,Analyzers" />
+        <dependency id="System.Management" version="10.0.8" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Windows\Downloads\Git\FoxtensionCore\bin\Debug\net10.0\Foxtension.dll" target="lib\net10.0\Foxtension.dll" />
+    <file src="C:\Users\Windows\Downloads\Git\FoxtensionCore\logo.png" target="logo.png" />
+    <file src="C:\Users\Windows\Downloads\Git\FoxtensionCore\README.md" target="README.md" />
+  </files>
+</package>

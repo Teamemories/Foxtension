@@ -1,0 +1,37 @@
+C:\Users\Windows\Desktop\New folder\Foxtension\obj\Debug\net10.0\Foxtension.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows\Desktop\New folder\Foxtension\obj\Debug\net10.0\Foxtension.AssemblyInfoInputs.cache
+C:\Users\Windows\Desktop\New folder\Foxtension\obj\Debug\net10.0\Foxtension.AssemblyInfo.cs
+C:\Users\Windows\Desktop\New folder\Foxtension\obj\Debug\net10.0\Foxtension.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Desktop\New folder\Foxtension\bin\Debug\net10.0\Foxtension.deps.json
+C:\Users\Windows\Desktop\New folder\Foxtension\bin\Debug\net10.0\Foxtension.dll
+C:\Users\Windows\Desktop\New folder\Foxtension\bin\Debug\net10.0\Foxtension.pdb
+C:\Users\Windows\Desktop\New folder\Foxtension\obj\Debug\net10.0\Foxtension.dll
+C:\Users\Windows\Desktop\New folder\Foxtension\obj\Debug\net10.0\refint\Foxtension.dll
+C:\Users\Windows\Desktop\New folder\Foxtension\obj\Debug\net10.0\Foxtension.pdb
+C:\Users\Windows\Desktop\New folder\Foxtension\obj\Debug\net10.0\ref\Foxtension.dll
+C:\Users\Windows\Desktop\New folder\Foxtension\obj\Debug\net10.0\Foxtension.csproj.AssemblyReference.cache
+C:\Users\Windows\Desktop\Foxtension\bin\Debug\net10.0\Foxtension.deps.json
+C:\Users\Windows\Desktop\Foxtension\bin\Debug\net10.0\Foxtension.dll
+C:\Users\Windows\Desktop\Foxtension\bin\Debug\net10.0\Foxtension.pdb
+C:\Users\Windows\Desktop\Foxtension\obj\Debug\net10.0\Foxtension.csproj.AssemblyReference.cache
+C:\Users\Windows\Desktop\Foxtension\obj\Debug\net10.0\Foxtension.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows\Desktop\Foxtension\obj\Debug\net10.0\Foxtension.AssemblyInfoInputs.cache
+C:\Users\Windows\Desktop\Foxtension\obj\Debug\net10.0\Foxtension.AssemblyInfo.cs
+C:\Users\Windows\Desktop\Foxtension\obj\Debug\net10.0\Foxtension.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Desktop\Foxtension\obj\Debug\net10.0\Foxtension.dll
+C:\Users\Windows\Desktop\Foxtension\obj\Debug\net10.0\refint\Foxtension.dll
+C:\Users\Windows\Desktop\Foxtension\obj\Debug\net10.0\Foxtension.pdb
+C:\Users\Windows\Desktop\Foxtension\obj\Debug\net10.0\ref\Foxtension.dll
+C:\Users\Windows\Downloads\Git\FoxtensionCore\obj\Debug\net10.0\Foxtension.csproj.AssemblyReference.cache
+C:\Users\Windows\Downloads\Git\FoxtensionCore\obj\Debug\net10.0\Foxtension.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows\Downloads\Git\FoxtensionCore\obj\Debug\net10.0\Foxtension.AssemblyInfoInputs.cache
+C:\Users\Windows\Downloads\Git\FoxtensionCore\obj\Debug\net10.0\Foxtension.AssemblyInfo.cs
+C:\Users\Windows\Downloads\Git\FoxtensionCore\obj\Debug\net10.0\Foxtension.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Downloads\Git\FoxtensionCore\obj\Debug\net10.0\Foxtension.sourcelink.json
+C:\Users\Windows\Downloads\Git\FoxtensionCore\obj\Debug\net10.0\Foxtension.dll
+C:\Users\Windows\Downloads\Git\FoxtensionCore\obj\Debug\net10.0\refint\Foxtension.dll
+C:\Users\Windows\Downloads\Git\FoxtensionCore\obj\Debug\net10.0\Foxtension.pdb
+C:\Users\Windows\Downloads\Git\FoxtensionCore\bin\Debug\net10.0\Foxtension.deps.json
+C:\Users\Windows\Downloads\Git\FoxtensionCore\bin\Debug\net10.0\Foxtension.dll
+C:\Users\Windows\Downloads\Git\FoxtensionCore\bin\Debug\net10.0\Foxtension.pdb
+C:\Users\Windows\Downloads\Git\FoxtensionCore\obj\Debug\net10.0\ref\Foxtension.dll
