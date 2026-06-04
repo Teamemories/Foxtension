@@ -16,7 +16,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Install Semgrep
+        run: pip install semgrep
+
+      - name: Run
+        run: semgrep scan --config p/owasp-top-ten --serif --output semgrep.sarif
+
+      - name: Upload
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: semgrep.sarif
     
       - uses: actions/setup-node@v4
         with:
