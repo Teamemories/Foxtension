@@ -1,0 +1,82 @@
+name: Security Pipeline
+
+on:
+  push:
+    branches: ["assistants"]
+  pull_request:
+    branches: ["assistants"]
+
+permissions:
+  contents: read
+  security-events: write
+  pull-requests: write
+
+jobs:
+
+  semgrep:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: returntocorp/semgrep-action@v1
+        with:
+          config: >
+            p/owasp-top-ten
+            p/csharp
+            p/javascript
+            p/php
+          generateSarif: "1"
+
+      - uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: semgrep.sarif
+
+
+  snyk:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - run: npm install -g snyk
+
+      - run: snyk auth ${{ secrets.SNYK_TOKEN }}
+
+      - run: snyk test --all-projects --json > snyk.json || true
+
+
+  report:
+    runs-on: ubuntu-latest
+    needs: [semgrep, snyk]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Generate report
+        run: |
+          echo "# Security Report" > report.md
+
+          echo "## Semgrep" >> report.md
+          if [ -f semgrep.sarif ]; then
+            jq -r '.runs[].results[]? |
+            "- \(.ruleId) at \(.locations[0].physicalLocation.artifactLocation.uri):\(.locations[0].physicalLocation.region.startLine)"' semgrep.sarif >> report.md
+          fi
+
+          echo "## Snyk" >> report.md
+          if [ -f snyk.json ]; then
+            jq -r '.vulnerabilities[]? |
+            "- \(.id) | \(.packageName) | \(.severity) | \(.url)"' snyk.json >> report.md
+          fi
+
+      - name: Post comment
+        if: github.event_name == 'pull_request'
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          path: report.md
