@@ -1,4 +1,4 @@
-name: Security Scan PR Ready
+name: SemGrep
 
 on:
   pull_request:
