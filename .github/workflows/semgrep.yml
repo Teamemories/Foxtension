@@ -22,6 +22,6 @@ jobs:
         with:
           node-version: 24
 
-      - uses: returntocorp/semgrep-action@v2
+      - uses: returntocorp/semgrep-action@v1
         with:
           config: p/owasp-top-ten
