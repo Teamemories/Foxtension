@@ -1,0 +1,92 @@
+name: Security Scan PR Ready
+
+on:
+  pull_request:
+    branches: [ assistants ]
+  push:
+    branches: [ assistants ]
+  schedule:
+    - cron: '0 0 * * 0'
+
+jobs:
+  dependabot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Dependabot Alerts
+        uses: dependabot/fetch-metadata@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+  semgrep:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Install Semgrep
+        run: curl -L -s https://semgrep.dev/install.sh | sh
+      - name: Run Semgrep Scans
+        run: |
+          semgrep --config=p/owasp-top-ten --exclude=node_modules --json --output semgrep-owasp.json
+          semgrep --config=https://semgrep.dev/p/r2c-security-csharp --lang csharp --json --output semgrep-csharp.json
+          semgrep --config=https://semgrep.dev/p/php-security --lang php --json --output semgrep-php.json
+
+  snyk:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '24'
+      - name: Install Snyk CLI
+        run: npm install -g snyk
+      - name: Authenticate Snyk
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        run: snyk auth $SNYK_TOKEN
+      - name: Run Snyk Test
+        run: snyk test --all-projects --json > snyk-report.json || true
+
+  pr-dashboard:
+    runs-on: ubuntu-latest
+    needs: [semgrep, snyk]
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+      - name: Install jq
+        run: sudo apt-get install -y jq
+      - name: Generate PR Dashboard
+        run: |
+          echo "### 🛡 Security Scan Dashboard" > pr-dashboard.md
+          echo "" >> pr-dashboard.md
+          echo "| Severity | Type | File | Line | Package | Link |" >> pr-dashboard.md
+          echo "|---------|------|------|------|---------|------|" >> pr-dashboard.md
+
+          map_severity() {
+            case "$1" in
+              ERROR|HIGH) echo "🔴 High";;
+              WARNING|MEDIUM) echo "🟠 Medium";;
+              INFO|LOW) echo "🟢 Low";;
+              *) echo "⚪️ N/A";;
+            esac
+          }
+
+          for file in semgrep-owasp.json semgrep-csharp.json semgrep-php.json; do
+            jq -c '.results[]' $file | while read i; do
+              sev=$(echo $i | jq -r '.extra.severity // "INFO"' | xargs -I{} bash -c "map_severity {}")
+              echo "| $sev | $(echo $i | jq -r '.check_id') | $(echo $i | jq -r '.path') | $(echo $i | jq -r '.start.line') | - | [Details]($(echo $i | jq -r '.more_info')) |" >> pr-dashboard.md
+            done
+          done
+
+          jq -c '.vulnerabilities[]?' snyk-report.json | while read v; do
+            sev=$(echo $v | jq -r '.severity' | xargs -I{} bash -c "map_severity {}")
+            echo "| $sev | $(echo $v | jq -r '.id') | - | - | $(echo $v | jq -r '.packageName')@$(echo $v | jq -r '.version') | [Details]($(echo $v | jq -r '.url')) |" >> pr-dashboard.md
+          done
+
+      - name: Post PR Dashboard
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          path: pr-dashboard.md
