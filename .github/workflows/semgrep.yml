@@ -1,10 +1,10 @@
 name: SemGrep
 
 on:
-  pull_request:
-    branches: [ assistants ]
   push:
-    branches: [ assistants ]
+    branches: [ "assistants" ]
+  pull_request:
+    branches: [ "assistants" ]
   schedule:
     - cron: '0 0 * * 0'
 
