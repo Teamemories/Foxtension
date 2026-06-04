@@ -1,27 +1,50 @@
 # Pull Request
 
-## Description
-Provide a clear and concise description of the changes in this PR.
+**Description**
+> Describe the purpose of this pull request and the changes indroduced.
 
-## Related Issues
-Link any related issues:
-- Closes #123
-- Fixes #456
+**Type of Change**
 
-## Type of Change
-Select all that apply:
-- [ ] Bug fix
-- [ ] New feature
-- [ ] Enhancement
-- [ ] Documentation update
-- [ ] Breaking change
+_Select all that apply:_
 
-## Checklist
-- [ ] I have read the CONTRIBUTING.md guidelines
+- [ ] Bug Fix
+- [ ] New Feature
+- [ ] Performance Improvement
+- [ ] Refactoring
+- [ ] Documentation Update
+- [ ] Test Improvement
+- [ ] Other
+
+**Changes Made**
+
+- 
+- 
+- 
+
+**Related Issues**
+
+_Link any related issues:_
+
+- Closes #
+- Fixes #
+
+**Testing**
+
+_Describe how the changes were tested._
+
+- [ ] Build passes
+- [ ] Existing tests pass
+- [ ] New tests added (if applicable)
+
+
+**Additional Notes**
+
+> Add any extra information here.
+
+**Checklist**
+
+- [ ] I have read the [`CONTRIBUTING`](https://github.com/Teamemories/Foxtension?tab=contributing-ov-file#contributing-to-foxtension) guidelines
 - [ ] I have tested my changes
 - [ ] I have updated documentation if needed
 - [ ] I have added or updated tests if applicable
 - [ ] I agree to follow the CODE_OF_CONDUCT.md
-
-## Additional Notes
-Add any extra information here.
