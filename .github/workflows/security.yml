@@ -1,4 +1,4 @@
-name: Security Pipeline (Semgrep Only)
+name: Security Pipeline
 
 on:
   push:
