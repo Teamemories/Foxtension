@@ -1,0 +1,16 @@
+name: Repo Control
+
+on:
+  pull_request:
+    types: [opened, edited,  reopened, synchronize]
+
+jobs:
+  check-pr-body:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check PR Body
+        run: |
+          if [ -z "${{github.event.pull_request.body}}"]; then
+          echo "PR body is empty."
+          exit 1
+          fi
