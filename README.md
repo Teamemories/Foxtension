@@ -1,4 +1,4 @@
-# <img src="https://github.com/Teamemories/Foxtension/blob/main/logo.png" style="width: 150px; height: 150px; border-radius: 50px;" /> Føxtension
+# <img src="https://github.com/Teamemories/Foxtension/blob/main/logo.png" style="width: 150px; height: 150px; border-radius: 50px;" /> Føxtension [![CodeQL](https://github.com/Teamemories/Foxtension/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/Teamemories/Foxtension/actions/workflows/github-code-scanning/codeql)
 
 # Overview
 
