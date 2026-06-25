@@ -5,3 +5,4 @@ Foxtension is a comprehensive .NET utility library designed to streamline common
 - [![Pull Request Guard](https://github.com/Teamemories/Foxtension/actions/workflows/pr-control.yml/badge.svg)](https://github.com/Teamemories/Foxtension/actions/workflows/pr-control.yml)
 - [![CodeQL](https://github.com/Teamemories/Foxtension/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/Teamemories/Foxtension/actions/workflows/github-code-scanning/codeql)
 - [![Dependency review](https://github.com/Teamemories/Foxtension/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/Teamemories/Foxtension/actions/workflows/dependency-review.yml)
+- [![.NET](https://github.com/xqb-dpx/Foxtension/actions/workflows/dotnet.yml/badge.svg)](https://github.com/xqb-dpx/Foxtension/actions/workflows/dotnet.yml)
