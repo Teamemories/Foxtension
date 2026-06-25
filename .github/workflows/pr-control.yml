@@ -1,4 +1,4 @@
-name: Ultra PR Control Gate
+name: Pull Request Guard
 
 on:
   pull_request:
