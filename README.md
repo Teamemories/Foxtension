@@ -1,4 +1,7 @@
-# <img src="https://github.com/Teamemories/Foxtension/blob/main/logo.png" style="width: 150px; height: 150px; border-radius: 50px;" /> Føxtension [![CodeQL](https://github.com/Teamemories/Foxtension/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/Teamemories/Foxtension/actions/workflows/github-code-scanning/codeql)
+# <img src="https://github.com/Teamemories/Foxtension/blob/main/logo.png" style="width: 150px; height: 150px; border-radius: 50px;" /> Føxtension
+
+> [![CodeQL](https://github.com/Teamemories/Foxtension/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/Teamemories/Foxtension/actions/workflows/github-code-scanning/codeql)
+> [![Dependabot Updates](https://github.com/Teamemories/Foxtension/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/Teamemories/Foxtension/actions/workflows/dependabot/dependabot-updates)
 
 Foxtension is a cross-platform utility framework that provides a collection of practical, high-level APIs for common development tasks. The library is designed to reduce repetitive code, simplify complex operations, and improve developer productivity through a consistent and easy-to-use interface.
 
