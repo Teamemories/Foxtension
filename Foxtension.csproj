@@ -1,34 +1,36 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net10.0</TargetFramework>
+		<TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
+		<OutputType>Library</OutputType>
 		<Nullable>enable</Nullable>
 		<PackageIcon>logo.png</PackageIcon>
 		<PackageId>Foxtension</PackageId>
-		<PackageVersion>26.6.1</PackageVersion>
-		<Version>26.6.1</Version>
+		<PackageVersion>26.7.0</PackageVersion>
+		<Version>26.7.0</Version>
 		<Description>Foxtension is a comprehensive .NET utility library, Foxtension aims to simplify your workflow and enhance application development.</Description>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<Authors>cmd_er [https://github.com/xqb-dpx]</Authors>
+		<Authors>cmd_er</Authors>
 		<Company>Teamemories</Company>
 		<Copyright>@2026 Teamemories</Copyright>
 		<PackageReleaseNotes>You can find out how to use it by reading Foxtension Wiki (https://github.com/Teamemories/Foxtension/wiki).</PackageReleaseNotes>
 		<RepositoryUrl>https://github.com/Teamemories/Foxtension/</RepositoryUrl>
 		<PackageProjectUrl>https://github.com/Teamemories/Foxtension/</PackageProjectUrl>
 		<RepositoryType>git</RepositoryType>
-		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-		<PackageTags>Utils;Utility;Utilities;</PackageTags>
+		<PackageTags>Utils;</PackageTags>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Dapper" Version="2.1.79" />
 		<PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.1" />
-		<PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.8" />
-		<PackageReference Include="System.Management" Version="10.0.8" />
+		<PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.9" />
+		<PackageReference Include="System.Management" Version="10.0.9" />
+		
 		<None Include="logo.png" Pack="true" PackagePath="" />
 		<None Include="README.md" Pack="true" PackagePath="" />
-		<None Include="LICENSE" Pack="true" PackagePath="" />
+		<None Include="LICENSE.md" Pack="true" PackagePath="" />
 	</ItemGroup>
 
 </Project>
